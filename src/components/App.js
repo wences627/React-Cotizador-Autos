@@ -4,6 +4,7 @@ import Formulario from './Formulario';
 import Resultado from './Resultado';
 import {obtenerDiferenciaAnio, calcularMarca, obtenerPlan} from '../helper';
 import Resumen from './Resumen';
+import Footer from './Footer';
 
 class App extends React.Component{
 
@@ -61,6 +62,7 @@ class App extends React.Component{
           <Resultado 
             resultado= {this.state.resultado}
           />
+          <Footer />
         </div>
       </div>
     );
